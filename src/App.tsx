@@ -41,8 +41,6 @@ function App() {
 }
 
 async function test() {
-  console.log(12 ** 12)
-  console.log(import.meta.env.BASE_URL)
   return await Promise.resolve(29)
 }
 
